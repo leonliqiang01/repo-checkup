@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git rev-parse *)",
+      "Bash(git ls-files *)",
+      "Bash(git remote -v)",
+      "Bash(git worktree list *)",
+      "Bash(git config --get *)",
+      "Bash(gh issue view *)",
+      "Bash(gh issue list *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr list *)",
+      "Bash(gh pr diff *)",
+      "Bash(gh pr checks *)",
+      "Bash(gh run list *)",
+      "Bash(gh run view *)",
+      "Bash(gh repo view *)",
+      "Bash(gh label list *)",
+      "Bash(gh release list *)",
+      "Bash(gh release view *)",
+      "Bash(gh auth status *)",
+      "Bash(uv sync *)",
+      "Bash(uv run pytest *)",
+      "Bash(uv run ruff check *)",
+      "Bash(uv run ruff format *)",
+      "Bash(uv run repo-checkup *)"
+    ],
+    "ask": [
+      "Bash(git tag *)",
+      "Bash(gh release create *)",
+      "Bash(gh repo create *)",
+      "Bash(gh repo edit *)"
+    ],
+    "deny": [
+      "PowerShell",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git push --force-with-lease *)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean *)",
+      "Bash(git branch -D *)",
+      "Bash(gh pr merge *)",
+      "Bash(gh repo delete *)",
+      "Bash(rm -rf *)",
+      "Bash(rm -fr *)"
+    ]
+  }
+}
